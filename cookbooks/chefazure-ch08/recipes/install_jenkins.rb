@@ -38,7 +38,6 @@ gem_package 'rubocop' do
   action :install
 end
 
-
 file '/etc/chef/client.pem' do
   owner 'root'
   group 'jenkins'
